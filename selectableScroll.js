@@ -47,7 +47,7 @@
       var elementOffset = this.scrollElement.offset();
       var scrollLeft = this.scrollElement.prop('scrollLeft');
       var scrollTop = this.scrollElement.prop('scrollTop');
-      this.selectees = $(this.options.filter, this.scrollElement[0]);
+      this.selectees = $(this.options.filter, this.element[0]);
       this.selectees.addClass('ui-selectee');
       this.selectees.each(function() {
         var $element = $(this),
